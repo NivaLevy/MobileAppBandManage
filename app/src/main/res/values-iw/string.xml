@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BandManage</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="easygcm_sender_id">378814901410</string>
+
+    <string-array name="navigation_drawer_items">
+        <item>לוח בקרה</item>
+        <item>צור קשר</item>
+        <item>עזרה</item>
+        <item>פרופיל</item>
+        <item>הגדרות</item>
+    </string-array>
+
+    <string-array name="short_days_of_the_week">
+        <item>א</item>
+        <item>ב</item>
+        <item>ג</item>
+        <item>ד</item>
+        <item>ה</item>
+        <item>ו</item>
+        <item>ש</item>
+    </string-array>
+
+
+    <string name="action_sent_toast">הדיווח נשלח, תודה!</string>
+    <string name="text_sent_toast">המסר נשלח, תודה!</string>
+
+
+    <!--myProfile fields hints-->
+    <string name="myProfile_name_field">שם</string>
+    <string name="myProfile_gender_field">מין</string>
+    <string name="myProfile_male_field">זכר</string>
+    <string name="myProfile_female_field">נקבה</string>
+    <string name="myProfile_phone_number_field">מספר טלפון</string>
+    <string name="height_weight_fields_title">גובה ומשקל</string>
+    <string name="myProfile_age_field"> גיל (0 - 120)</string>
+
+    <string name="myProfile_weight_field">משקל</string>
+    <string name="myProfile_height_field">גובה</string>
+    <string name="myProfile_birthday_field">תאריך לידה</string>
+    <string name="myProfile_emergency_phone_number_field">טלפון למקרה חירום</string>
+    <string name="myProfile_smoke_field">האם אתה מעשן?</string>
+    <string name="myProfile_kit_id">מספר ערכה</string>
+    <string name="myProfile_sportracker_device_id">SporTracker מספר מכשיר</string>
+
+    <string name="pls_fill_minimum_of_name_and_room">חובה למלא- שם, מספר חדר ומספר ערכה</string>
+
+    <string name="centimeter">ס"מ </string>
+    <string name="inch">אינץ</string>
+    <string name="libras">פאונד</string>
+    <string name="kilograms">ק"ג</string>
+
+    <string name="alerts_disregarding_changes">השינויים לא נשמרו</string>
+    <string name="alerts_saving_changes">השינויים נשמרו</string>
+
+    <string name="my_profile_not_smoking">לא</string>
+    <string name="my_profile_smoking">כן</string>
+
+    <string name="select_height_cm">בחר גובה - (מטרים, סנטימרים)</string>
+    <string name="select_height_ft">בחר גובה - (רגל, אינצ׳ים)</string>
+
+    <!--Settings Drawer Buttons-->
+    <string name="drawer_add_carereceiver_button">הוסף דייר חדש</string>
+    <string name="loginSettingCategoryKey">loginCategoryKey</string>
+    <string name="sensorsSettingCategoryKey">sensorsCategoryKey</string>
+    <string name="drawer_dash_board_button">לוח בקרה</string>
+    <string name="drawer_care_panel_button">דיירים</string> <!--FIND BETTER NAME-->
+    <string name="drawer_actions_button">דיווח</string>
+    <string name="drawer_weekly_summary_button">סיכום שבועי</string>
+    <string name="drawer_weekly_actions_button">דיווחים שבועיים</string>
+    <string name="drawer_rate_us_button">דרג אותנו</string>
+    <string name="drawer_contact_us_button">צור קשר</string>
+    <string name="drawer_help_button">חירום</string>
+    <string name="drawer_my_profile_button">פרופיל</string>
+    <string name="drawer_settings_button">הגדרות</string>
+    <string name="drawer_helpdesk_button">לוח בקרה</string>
+    <string name="drawer_complete_profile_fill_indicator">הושלם</string>
+    <string name="drawer_residents">דיירים:</string>
+
+    <string name="sos_button">sos</string>
+    <string name="notifications_button">הודעה</string>
+    <string name="submit_button">שלח</string>
+
+
+    <string name="notific_wearable_signal_low_title">"קליטת אות חלשה מהשעון"</string>
+    <string name="notific_wearable_signal_low_message">"קרב את השעון אל הפלאפון"</string>
+    <string name="notific_wearable_battery_low_title">"בטריה חלשה בשעון"</string>
+    <string name="notific_wearable_battery_low_message">"טען את השעון"</string>
+
+    <string name="notific_off_regime_title">"חריגה פיזיולוגית זוהתה"</string>
+    <string name="notific_off_regime_message">"שימ/י לב אל מצבך הבריאותי"</string>
+
+    <string name="notific_fall_title">"נפילה זוהתה"</string>
+    <string name="notific_fall_message">"שימ/י לב אל מצבך הבריאותי"</string>
+
+
+    <!--SAMI connection fragment-->
+    <string name="unknown_device">מכשיר לא מוכר</string>
+    <string name="login_screen">התחבר לסמסונג</string>
+    <string name="welcome_txt">ברוך הבא </string>
+    <string name="sami_devices_title">SAMI מכשירי</string>
+    <string name="title_devices">בלוטות\' סריקת מכשירים תומכים</string>
+
+    <string name="ble_not_supported">בלוטות\' לא נתמך</string>
+    <string name="label_data">נתונים:</string>
+    <string name="label_device_address">כתובת מכשיר:</string>
+    <string name="label_state">מצב חיבור לבלוטות\':</string>
+    <string name="label_sami_deviceid">מספר מכשיר SAMI:</string>
+    <string name="NA">לא זמין</string>
+    <string name="no_data">אין נתונים</string>
+    <string name="connected">מחובר</string>
+    <string name="disconnected">מנותק</string>
+    <string name="error_bluetooth_not_supported">בלוטות\' לא נתמכת</string>
+    <string name="unknown_characteristic">מאפיין לא ידוע</string>
+    <string name="unknown_service">שירות לא מוכר</string>
+
+    <!-- Menu items -->
+    <string name="menu_connect">בלוטות\' מחובר</string>
+    <string name="menu_disconnect">בלוטות\' מנותק</string>
+    <string name="menu_scan">סורק</string>
+    <string name="menu_refresh">רענן</string>
+    <string name="menu_stop">עצור</string>
+    <string name="menu_logout_sami">התנתק מSAMI</string>
+
+    <string name="create_new_device">צור מכשיר חדש</string>
+    <string name="main_dashboard_status_line">בקרוב…</string>
+
+    <!-- Dashboard views -->
+    <string name="welcome_dashboard_message">שלום %1$s!</string>
+    <string name="default_welcome_dashboard_message">שלום!</string>
+    <string name="emergency_call_number_not_set_message">כדי להפעיל את כפתור המצוקה, הזן את מספר הטלפון למקרה חירום בעמוד הפרופיל</string>
+    <string name="emergency_call_number_not_set_title">שיחת חירום</string>
+    <string name="alerts_coming_soon_message">התראות יגיעו בקרוב…</string>
+    <string name="ok_button">בסדר</string>
+    <string name="default_empty_gauge_value">--</string>
+    <string name="temperature_gauge_title">טמפ\'</string>
+    <string name="steps_gauge_title">צעדים</string>
+    <string name="heartrate_gauge_title">דופק</string>
+
+    <!-- SAMI Login screen -->
+    <string name="sami_logout_button">התנתק מSAMI</string>
+    <string name="sami_login_button">התחבר לSAMI</string>
+    <string name="simband_help_file_link">https://drive.google.com/file/d/0B2uJgGg2FVcGUjYxNkYwdEhGXzA/view?usp=sharing</string>
+    <string name="reporting_fragment_free_text_field_hint">הערה</string>
+
+
+
+    <!-- summary -->
+    <string name="lastSummaryUpdateText">זמן ההודעה האחרונה שהתקבלה מהצמיד:</string>
+    <string name="lastSummaryUpdateUnknownText">זמן ההודעה האחרונה שהתקבלה מהצמיד אינו ידוע</string>
+
+    <string name="faliureGetWeeklySummaryToast">אנא נסה שנית מאוחר יותר</string>
+
+    <string name="summary_custom_view_temp_description">תאור</string>
+    <string name="summary_custom_view_text_max">מקסימום</string>
+    <string name="summary_custom_view_text_min">מינימום</string>
+    <string name="summary_custom_view_text_no_data">אין נתונים</string>
+    <string name="summary_custom_view_text_average">ממוצע</string>
+    <string name="summary_custom_view_text_average_description">יחידת מידה</string>
+
+    <string name="steps_row_units">צעדים</string>
+    <string name="dayidle_row_units">פעמים</string>
+    <string name="gsr_row_units">µSiemens</string>
+    <string name="overtemp_row_units">מעלות</string>
+    <string name="event_count_units">אירועים</string>
+    <string name="temp_row_units">מעלות</string>
+    <string name="wear_time_units">שעות</string>
+    <string name="sleep_time_units">שעות</string>
+    <string name="run_row_units">פעמים</string>
+    <string name="bp_row_units">mmHg</string>
+    <string name="hr_row_units">פעימות לדקה</string>
+    <string name="anxiety_row_units">BMP/RPM/MS</string>
+    <string name="walk_row_units">פעמים</string>
+    <string name="overrun_row_units">BRP/RMP</string>
+    <string name="fatigue_row_units">שונות</string>
+    <string name="hrv_row_units">מילישניות</string>
+    <string name="calories_units">קלוריות</string>
+    <string name="distance_units">סנטימטר</string>
+
+
+    <string name="activity_hr_row_title">פעילות</string>
+    <string name="resting_hr_row_title">קצב לב\nבמנוחה</string>
+    <string name="exercising_hr_row_title">קצב לב\nבפעילות</string>
+    <string name="resting_temp_row_title">טמפ\'\nבמנוחה</string>
+    <string name="exercising_temp_row_title">טמפ\'\nבפעילות</string>
+    <string name="resting_gsr_row_title">מוליכות עור\nבמנוחה</string>
+    <string name="exercising_gsr_row_title">מוליכות עור\nבפעילות</string>
+    <string name="hrv_row_title">שונות\nבקצב לב</string>
+    <string name="steps_row_title">צעדים</string>
+    <string name="dayidle_row_title">מנוחה</string>
+    <string name="overtemp_row_title">התחממות\nיתר</string>
+    <string name="run_row_title">ריצה</string>
+    <string name="hr_row_title">קצב לב\n(bpm)</string>
+    <string name="collection_av_hr_row_title">קצב לב\nCollection</string>
+    <string name="monitoring_hr_row_title">קצב לב\nMonitoring</string>
+    <string name="mode_selected_hr_row_title">קצב לב\nSelected</string>
+    <string name="anxiety_row_title">חרדה</string>
+    <string name="walk_row_title">הליכה</string>
+    <string name="overrun_row_title">Over\nRun</string>
+    <string name="fatigue_row_title">תשישות</string>
+    <string name="band_wearing_time_title">זמן\nענידה</string>
+    <string name="band_room_time_title">זמן\nבחדר\n(שעות)</string>
+    <string name="temp_row_title">טמפ\'</string>
+    <string name="temp_row_title_celsius">טמפ׳\nעור\n (°C) </string>
+    <string name="temp_row_title_fahrenheit"> טמפ׳\nעור\n (°F) </string>
+    <string name="sleep_hours_title">שעות\nשינה</string>
+    <string name="event_count_title">מספר\nאירועים</string>
+
+    <string name="calories_row_title">קלוריות</string>
+    <string name="distance_row_title_km">מרחק\n(ק״מ)</string>
+
+    <string name="static_legend">סטטי</string>
+    <string name="dynamic_legend">דינמי</string>
+    <string name="areUSure">"האם אתה בטוח?"</string>
+
+    <string name="not_logged_in_message">כדי לגשת למסך זה, אנא התחבר</string>
+    <string name="send_button_text">שלח</string>
+    <string name="next_button_text">הבא</string>
+    <string name="save_button_text">שמור</string>
+    <string name="confirm_button_text">אמת אירוע</string>
+    <string name="cancel_button_text">בטל</string>
+    <string name="back_button_text">אחורה</string>
+    <string name="approve_button_text">אשר</string>
+    <string name="decline_button_text">טעות בגילוי</string>
+    <string name="login_button">התחבר</string>
+
+
+    <!-- notifications -->
+
+    <string name="notific_daily_report_available_title">"דוח חדש התקבל"</string>
+    <string name="notific_daily_report_available_message">"לחץ כדי לצפות בדוח היומי"</string>
+    <string name="notific_daily_report_unavailable_title">דוח חדש אינו זמין"</string>
+    <string name="notific_daily_report_unavailable_message">"לא נמצאה פעילות"</string>
+
+    <string name="are_u_still">"עדיין ב"</string>
+    <string name="continuous_reminder_notification_massage">"אנא עדכן את הפעילות שלך אם סיימת"</string>
+    <string name="reminder_interval_index_key">reminderIntervalIndex</string>
+
+    <string name="notific_wearable_disconnect_title">החיבור עם השעון נותק</string>
+    <string name="notific_wearable_disconnect_message">"הכנס להגדרות כדי להתחבר שוב"</string>
+
+
+
+
+    <!--<string name="main_dashboard_status_line">Here is your current status:</string>-->
+    <string name="no_internet_toast">"אין גישה לאינטרנט. אנא התחבר ונסה שנית"</string>
+
+    <string name="bandmanage_version_text">גרסא %1$s</string>
+
+
+    <!-- continuous mode reminder notification strings -->
+    <string name="actions_dining">אכילה</string>
+    <string name="actions_coffee">שתיית\nקפה</string>
+    <string name="actions_bowel_movement">פעילות\nמעיים</string>
+    <string name="actions_smoking">עישון</string>
+    <string name="actions_fatigue">תשישות</string>
+    <string name="actions_stress">לחץ</string>
+    <string name="actions_run">ריצה</string>
+    <string name="actions_walk">הליכה</string>
+    <string name="actions_exercise">התעמלות</string>
+    <string name="actions_driving">נהיגה</string>
+    <string name="actions_offline">התנתקות</string>
+    <string name="actions_online">התחברות</string>
+    <string name="actions_flu">שפעת</string>
+    <string name="actions_comment">הערה</string>
+    <string name="actions_dehydration">התייבשות</string>
+    <string name="actions_fall">נפילה</string>
+    <string name="actions_off_regime">חריגה פיזיולוגית</string>
+    <string name="actions_off_regime_label">חריגה פיזיולוגית</string>
+
+
+    <string name="stop_addition_to_action_button_title">הפסק\n</string>
+
+    <string name="report_error">לא ניתן לשמור פעולות, אנא נסה שוב</string>
+
+    <!-- action popup -->
+    <string name="header_report_title">" דיווח "</string>
+
+    <string name="areYouFeeling_preName">"האם "</string>
+    <string name="areYouFeeling_postName">" מרגיש/ה או סובל/ת מ..."</string>
+    <string name="areYouFeeling_was_preName">"האם "</string>
+    <string name="areYouFeeling_did_preName">" ?"</string>
+    <string name="areYouFeeling_past_postName">" הרגיש/ה או סבל/ה מ..."</string>
+
+
+    <string name="flu_extension_frequency">חומרה</string>
+    <string name="vital_signs_title">מדדים</string>
+
+    <string name="comments_title">הערות</string>
+    <string name="symptoms_title">סימפטומים</string>
+    <string name="anamnesis_title">אנמנזה</string>
+
+    <string name="actions_cough_frequency">שיעול</string>
+    <string name="actions_fever">חום או קור</string>
+    <string name="actions_sorethroat">כאב גרון</string>
+    <string name="actions_stuffynose">אף סתום או דולף</string>
+    <string name="actions_bodyaches">כאבי שרירים</string>
+    <string name="actions_headaches">כאבי ראש</string>
+    <string name="actions_tiredness">עייפות</string>
+
+    <string name="fever_hint_et_c">טמפרטורת גוף (42 - 34 C°)</string>
+    <string name="fever_hint_et_f">(93 - 108 °F) טמפרטורת גוף</string>
+
+    <string name="actions_place">מיקום</string>
+    <string name="actions_falltype">סוג הנפילה</string>
+
+    <string name="actions_medications">שינוי בנטילת התרופות בשבועיים האחרונים</string>
+    <string name="actions_medications_et">תיאור השינוי בנטילת התרופות</string>
+
+    <string name="actions_injury">סוג פציעה</string>
+
+    <string name="actions_place_1">מקלחת</string>
+    <string name="actions_place_2">שירותים</string>
+    <string name="actions_place_3">מחוץ לבית</string>
+    <string name="actions_place_4">מהמיטה</string>
+    <string name="actions_place_5">בחדר</string>
+
+    <string name="actions_falltype_1">נפילה אחורה</string>
+    <string name="actions_falltype_2">נפילה הצידה</string>
+    <string name="actions_falltype_3">נפילה קדימה</string>
+
+
+    <string name="actions_other">אחר</string>
+
+    <string name="activity_hint_et">פעילות בזמן האירוע</string>
+
+    <string name="injury_extension_severity">חומרה</string>
+
+    <string name="actions_injury_1">חבלת ראש</string>
+    <string name="actions_injury_2">אובדן הכרה</string>
+    <string name="actions_injury_3">בטן</string>
+    <string name="actions_injury_4">גפיים עליונות</string>
+    <string name="actions_injury_5">גפיים תחתונות</string>
+
+
+    <string name="bp_sp_hint_et">"סיסטולי (70 - 220)"</string>
+    <string name="bp_dp_hint_et">"דיאסטולי (30 - 120)"</string>
+    <string name="actions_cough_kind">"שיעול"</string>
+
+    <string name="actions_blueLips">"שפתיים כחולות"</string>
+    <string name="actions_difficultyBreathing">"קשיי נשימה"</string>
+    <string name="actions_bowelIrregular">"שינוי בפעילות מעיים"</string>
+    <string name="actions_pain">"כאבים"</string>
+    <string name="actions_bowelIrregular_1">"שילשול"</string>
+    <string name="actions_bowelIrregular_2">"עצירות"</string>
+    <string name="actions_bowelIrregular_3">"דם בצואה"</string>
+
+    <string name="actions_chest_irregularities">"הפרעות חזה"</string>
+    <string name="actions_confusionSpeech">"בילבול בדיבור"</string>
+    <string name="actions_vomitDiarrhea">"הקאות / שילשולים"</string>
+    <string name="actions_urineChange">"שינוי בנתינת שתן בנפח או בתדירות"</string>
+    <string name="actions_burn">"חשיפה לסביבה חמה"</string>
+    <string name="actions_trauma">"סובל מטראומה או מחלה אקוטית"</string>
+    <string name="actions_thirst">"צמא / לשון יבשה"</string>
+    <string name="actions_drink24">"שתייה מועטת"</string>
+    <string name="actions_neurology">"הפרעות נוירולוגיות"</string>
+    <string name="actions_physiology">"הפרעות פיזיולוגיות"</string>
+    <string name="actions_fatigueHeadacheWeakness">"תשישות / כאב ראש / חולשה"</string>
+    <string name="actions_dizziRapidHRFaint">"סחרחורת / דופק מהיר / עילפון בקימה"</string>
+
+    <string name="actions_neurology_5">"אובדן הכרה"</string>
+    <string name="actions_neurology_6">"אי התמצאות"</string>
+    <string name="actions_neurology_1">"חולשה"</string>
+    <string name="actions_neurology_2">"קושי בדיבור"</string>
+    <string name="actions_neurology_3">"בעיות הליכה"</string>
+    <string name="actions_neurology_4">"אובדן ראייה"</string>
+
+
+    <string name="celsius">"°C"</string>
+    <string name="fahrenheit">"°F"</string>
+
+
+
+    <!-- settings strings -->
+    <string name="settingsActivityTitle">הגדרות</string>
+    <string name="generalCategoryTitle">כללי</string>
+    <string name="advancedCategoryTitle">מתקדם</string>
+    <string name="checkboxAndroidSensors">הפעל סנסורים במכשיר</string>
+    <string name="checkboxWearableSensors">חבר שעון</string>
+    <string name="samiLogin">התחבר לSAMI</string>
+    <string name="samiLogout">התנתק מSAMI</string>
+    <string name="noInternetSamiToast">אין גישה לאינטרנט</string>
+    <string name="LogoutSuccessfulToast">ההתנתקות בוצעה</string>
+    <string name="LogoutUnsuccessfulToast">"ההתנתקות נכשלה : "</string>
+    <string name="angel_dialog_text_device_pick">הפעל זיהוי בלוטות\' בשעון ובחר מכשיר מהרשימה</string>
+    <string name="dialog_title_wearable_device_pick">בחר סוג מכשיר</string>
+    <string name="angel_dialog_title_device_pick">בחירת מכשיר Angel Sensor</string>
+    <string name="angel_sensor">Angel Sensor</string>
+    <string name="microsoft_band">Microsoft Band</string>
+    <string name="connection_error">"בעיית התחברות"</string>
+    <string name="alertDialog_message_microHealth_lowSDK">"השירות Microsoft Health לא נתמך על ידי גרסאת האנדרואיד שלך. אנא עדכן לגרסא 4.2 (API 17) ומעלה."</string>
+    <string name="alertDialog_message_microHealth_install_microHealth">"שירות Microsoft Health לא זמין. אנא ודא כי האפליקציה Microsoft Health מותקנת במכשירך."</string>
+    <string name="alertDialog_message_band_isnt_paired">Microsoft Band לא צומד למכשירך. כנס לMicrosoft Health על מנת לבצע צימוד.</string>
+    <string name="alertDialog_message_band_far_or_BT_off">"Microsoft Band לא מחובר. ודא כי הבלוטות\' פועל והשעון בטווח."</string>
+
+
+
+
+    <!-- wearable connection -->
+    <string name="allow_bluetooth_toast">כדי לאפשר שימוש בשעון, הפעל בלוטות\'</string>
+    <string name="allow_location_toast">כדי לאשר שימוש בשעון, הפעל GPS או נתונים לנייד</string>
+    <string name="connected_wearable_toast">השעון מחובר</string>
+    <string name="not_connected_wearable_toast">השעון אינו מחובר</string>
+    <string name="location_or_nodevice_sensors_toast">אפשר איכון כדי להפעיל את החיבור לשעון</string>
+    <string name="location_or_no_angel_sensors_toast">אפשר איכון כדי להפעיל את הסנסורים של המכשיר</string>
+
+    <string name="bus_tag_is_wearable_connected">"bus_tag_is_wearable_connected"</string>
+
+
+    <!-- caregiver panel-->
+
+    <string name="listitem_caretaker_room_title">חדר %1$s</string>
+    <string name="caretaker_room_number_title">מספר חדר</string>
+    <string name="general_data_profile_header">"פרופיל כללי"</string>
+    <string name="fall_data_profile_header">"פרופיל נפילה"</string>
+    <string name="show_more">"פתח"</string>
+    <string name="show_less">"סגור"</string>
+    <string name="edit">"ערוך"</string>
+
+    <string name="floating_action_btn_tv_text">"דווח על אירוע חדש"</string>
+
+    <string name="caregiver_panel_tab_name_log">"יומן"</string>
+    <string name="caregiver_panel_tab_name_actions">"פרטים"</string>
+    <string name="caregiver_panel_tab_name_summary">"סיכום שבועי"</string>
+    <string name="helpdesk_panel_tab_name_control">"התראות אירוע"</string>
+    <string name="helpdesk_panel_tab_name_history">"היסטוריית אירועים"</string>
+
+    <string name="list_header_carepanel_careRecipients">"דיירים"</string>
+    <string name="list_header_carepanel_attentionNeeded">"שים לב"</string>
+
+    <string name="listsort_name">שם</string>
+    <string name="listsort_room">חדר</string>
+    <string name="listsort_last_message">הודעה אחרונה</string>
+
+    <string name="event_status_title">"לשנות את מצב האירוע?"</string>
+    <string name="event_status_unhandled">"לא טופל"</string>
+    <string name="event_status_declined">"נדחה"</string>
+    <string name="event_status_confirm">"אושר"</string>
+    <string name="event_status_in_treatment">"בטיפול"</string>
+
+    <string name="resolve">"טופל"</string>
+    <string name="update">"עדכן"</string>
+
+    <string name="nurse_id_hint">"שם מטפל"</string>
+    <string name="patient_hint">"שם דייר"</string>
+    <string name="status_change_header">"שינוי סטטוס"</string>
+
+    <string name="not_all_necessery_data_inserted_message">"מלא את הסעיפים המסומנים הדרושים"</string>
+
+    <string name="log_header_action_type">"סוג"</string>
+    <string name="log_header_date">"תאריך"</string>
+    <string name="log_header_user">"משתמש"</string>
+    <string name="log_header_room">"חדר"</string>
+    <string name="log_manual">"ידנית"</string>
+    <string name="log_bandmanage">"BM"</string>
+    <string name="log_header_reporter">"מדווח"</string>
+    <string name="log_header_staff_id">"מטפל"</string>
+    <string name="log_header_details">"פרטים"</string>
+    <string name="log_header_status">"מצב"</string>
+    <string name="log_header_is_handled">"אישור"</string>
+
+    <string name="no_log_data">"לא נמצאו דיווחים"</string>
+
+    <string name="popup_header_diagnose_title">" אובחנה"</string>
+
+
+    <string name="popup_header_diagnose_generic_title">"אירועים לא מטופלים"</string>
+
+    <string name="header_diagnose">"אבחנות"</string>
+    <string name="header_pick_carereceiver_title">"בחר דייר"</string>
+
+    <string name="header_add_new_carereceiver_popup">"הוסף דייר חדש"</string>
+    <string name="edit_details">לחץ על מנת לערוך</string>
+    <string name="carereceiver_creation_faliure_toast">"יצירת מטופל חדש נכשלה"</string>
+    <string name="carereceiver_update_faliure_toast">"עדכון מטופל נכשל"</string>
+    <string name="failure_connecting_to_internet">בדוק את החיבור לאינטרנט.</string>
+
+    <!--delete care receiver-->
+    <string name="carereceiver_deletion_success_toast">"המחיקה בוצעה בהצלחה"</string>
+    <string name="carereceiver_deletion_faliure_toast">"המחיקה נכשלה, אנא נסה שוב מאוחר יותר"</string>
+
+    <string name="delete">"מחק"</string>
+
+    <string name="areUSure_delete_carereceiver_prename">"האם אתה בטוח?"</string>
+    <string name="areUSure_delete_carereceiver_postname">" לצמיתות?"</string>
+
+    <string name="yes">"כן"</string>
+    <string name="no">"לא"</string>
+
+    <string name="progressDialog_texy_delete_carereceiver">"מוחק. אנא המתן…"</string>
+
+    <!-- SMSs -->
+    <string name="sms_hebrew_starter">"אצל "</string>
+    <string name="sms_defualt_carereceiver_name">"הדייר שלך"</string>
+    <string name="sms_carereceiver_wearable_battery">"הסוללה בשעון נמוכה ויש לטעון אותו"</string>
+    <string name="sms_carereceiver_wearable_signal">"נראה כי השעון מרוחק ממכשיר הפלאפון, וודא כי המכשיר/שעון לא נשכח"</string>
+    <string name="sms_carereceiver_off_regime">"התגלתה חריגה במדדים הפיזיולוגים."</string>
+    <string name="sms_carereceiver_fall">"התגלתה נפילה. צור קשר עם הדייר שלך כדי לדווא מה שלומו"</string>
+
+
+    <!-- crushlytics-->
+    <string name="system_id_crashlytics_tab">"system id: "</string>
+    <string name="job_crashlytics_tab">"; job: "</string>
+    <string name="name_crashlytics_tab">" ; name: "</string>
+
+    <string name="watch_id_crashlytics_tab">"Watch ID: "</string>
+    <string name="field_name_crashlytics_tab">"Field Name: "</string>
+    <string name="message_type_crashlytics_tab">"Message Type: "</string>
+    <string name="gateway_id_crashlytics_tab">"GW ID: "</string>
+    <string name="reason_crashlytics_tab">"Reason: "</string>
+    <string name="e_stack_trace_crashlytics_tab">"Stack Trace: "</string>
+
+    <string name="messageid_crashlytics_tab">" ; message id: "</string>
+    <string name="carereceiver_id__crashlytics_tab">" ; care receiver id: "</string>
+    <string name="error__crashlytics_tab">" ; error: "</string>
+    <string name="error_deleting">"database problem while deleting careReceiver"</string>
+
+
+
+    <!-- ===========================TAGS============================= -->
+
+    <!-- bus -->
+    <string name="bus_tag_display_new_dashboard_data">"bus_tag_display_new_dashboard_data"</string>
+    <string name="bus_tag_one_sec_ticker">"bus_tag_one_sec_ticker"</string>
+
+    <string name="bus_tag_close_action_popup">"bus_tag_close_action_popup"</string>
+    <string name="bus_tag_new_wearable_data_to_display">"bus_tag_close_action_popup"</string>
+
+    <string name="bus_tag_load_and_display_care_list">"bus_tag_load_and_display_care_list"</string>
+    <string name="bus_tag_filter_search">"filter search"</string>
+    <string name="bus_tag_set_picked_carereceiver">"bus_tag_set_picked_carereceiver"</string>
+    <string name="bus_tag_display_picked_carereceiver_on_tabs">"bus_tag_display_picked_carereceiver_on_tabs"</string>
+    <string name="bus_tag_display_no_carereceiver_on_tabs">"bus_tag_display_no_carereceiver_on_tabs"</string>
+    <string name="bus_tag_ask_publish_picked_carereceiver">"bus_tag_ask_publish_picked_carereceiver"</string>
+
+
+    <!-- summary -->
+    <string name="activity_hr_row_tag">Activity</string>
+    <string name="resting_hr_row_tag">RestingHR</string>
+    <string name="exercising_hr_row_tag">ActiveHR</string>
+    <string name="resting_temp_row_tag">RestingTemp</string>
+    <string name="exercising_temp_row_tag">ActiveTemp</string>
+    <string name="resting_gsr_row_tag">RestingGSR</string>
+    <string name="exercising_gsr_row_tag">ActiveGSR</string>
+    <string name="hrv_row_tag">HRV</string>
+    <string name="steps_row_tag">Steps</string>
+    <string name="dayidle_row_tag">DayIdle</string>
+    <string name="overtemp_row_tag">OverTemp</string>
+    <string name="run_row_tag">Run</string>
+    <string name="monitoring_hr_row_tag">HRMonitoring</string>
+    <string name="mode_selected_hr_row_tag">HRModeSelected</string>
+    <string name="anxiety_row_tag">Anxiety</string>
+    <string name="walk_row_tag">Walk</string>
+    <string name="overrun_row_tag">OverRun</string>
+    <string name="fatigue_row_tag">Fatigue</string>
+    <string name="band_wearing_time_tag">WearTime</string>
+    <string name="band_room_time_tag">RoomTime</string>
+    <string name="heartrate_row_tag">heartrate</string>
+    <string name="temp_row_tag">temp</string>
+    <string name="event_count_row_tag">event_count</string>
+    <string name="sleep_hours_tag">sleep_hours</string>
+    <string name="calories_tag">calories</string>
+    <string name="distance_tag">distance</string>
+
+    <!-- action -->
+    <string name="actions_fragment_dining_tag">Dining</string>
+    <string name="actions_fragment_coffee_tag">DrinkingCoffee</string>
+    <string name="actions_fragment_bowelmovement_tag">BowelMovement</string>
+    <string name="actions_fragment_smoking_tag">Smoking</string>
+    <string name="actions_fragment_fatigue_tag">Fatigued</string>
+    <string name="actions_fragment_stress_tag">Stressed</string>
+    <string name="actions_fragment_run_tag">Running</string>
+    <string name="actions_fragment_walk_tag">Walking</string>
+    <string name="actions_fragment_exercise_tag">Exercising</string>
+    <string name="actions_fragment_driving_tag">Driving</string>
+    <string name="actions_fragment_offline_tag">Offline</string>
+    <string name="actions_fragment_flu_tag">Flu</string>
+    <string name="actions_fragment_comment_tag">Comment</string>
+    <string name="actions_fragment_dehydration_tag">Dehydration</string>
+    <string name="actions_fragment_fall_tag">Fall</string>
+    <string name="actions_fragment_off_regime_tag">OffRegime</string>
+    <string name="actions_fragment_low_battery_tag">LowBattery</string>
+    <string name="actions_fragment_low_signal_tag">LowSignal</string>
+
+    <string name="multiple_choice_action_type_tag">multiple_choice</string>
+    <string name="moment_action_type_tag">moment</string>
+    <string name="continuous_action_type_tag">continuous</string>
+
+    <string name="stop_action_tag">stop </string>
+
+    <string name="sami_event_handle_state_declined_tag">"rejected"</string>
+    <string name="sami_event_handle_state_accepted_tag">"confirmed"</string>
+    <string name="sami_event_handle_state_unsure_tag">"unsure"</string>
+    <string name="sami_reporting_method_automatic_tag">"automatic"</string>
+    <string name="sami_reporting_method_manual_tag">"manual"</string>
+
+
+
+
+
+    <!-- action popup -->
+    <string name="symptoms_tag_name">symptoms</string>
+    <string name="extension_tag_name">extension</string>
+
+    <string name="actions_fragment_fever_tag">actions_fever</string>
+    <string name="actions_fragment_cough_frequency_tag">actions_cough_frequency</string>
+    <string name="actions_fragment_sorethroat_tag">actions_sorethroat</string>
+    <string name="actions_fragment_stuffynose_tag">actions_stuffynose</string>
+    <string name="actions_fragment_bodyaches_tag">actions_bodyaches</string>
+    <string name="actions_fragment_headaches_tag">actions_headaches</string>
+    <string name="actions_fragment_tiredness_tag">actions_tiredness</string>
+
+
+    <string name="actions_physiology_chest_tag">"actions_chest_irregularities"</string>
+    <string name="actions_difficultybreathing_tag">"actions_difficultyBreathing"</string>
+    <string name="actions_bluelips_tag">"actions_blueLips"</string>
+    <string name="actions_bowel_tag">"actions_bowelIrregular"</string>
+    <string name="actions_pain_tag">"actions_pain"</string>
+
+    <string name="actions_medications_tag">actions_medications</string>
+
+    <string name="actions_fragment_falltype_tag">actions_falltype</string>
+    <string name="actions_location_other_tag">location:other</string>
+    <string name="actions_injury_other_tag">injury:other</string>
+    <string name="actions_physiology_other_tag">actions_physiology_other_tag</string>
+    <string name="actions_neurology_other_tag">neurology:other</string>
+
+    <string name="actions_fragment_bodytemp_tag">"fever"</string>
+    <string name="actions_fragment_tempunits_tag">"tempUnits"</string>
+    <string name="actions_fragment_bpsystolic_tag">"bp_sp_hint_et"</string>
+    <string name="actions_fragment_bpdiastolic_tag">"bp_dp_hint_et"</string>
+    <string name="actions_fragment_comments_tag">"actions_comment"</string>
+
+
+    <string name="actions_fragment_activity_tag">activity_hint_et</string>
+    <string name="actions_fragment_injury_tag">actions_injury</string>
+    <string name="actions_fragment_place_tag">actions_place</string>
+    <string name="actions_fragment_Physiological_tag">actions_physiology</string>
+    <string name="actions_fragment_Neurological_tag">actions_neurology</string>
+    <string name="actions_fragment_medications_tag">actions_medications</string>
+
+    <string name="actions_fragment_place_1_tag">actions_place_1</string>
+    <string name="actions_fragment_place_2_tag">actions_place_2</string>
+    <string name="actions_fragment_place_3_tag">actions_place_3</string>
+    <string name="actions_fragment_place_4_tag">actions_place_4</string>
+    <string name="actions_fragment_place_5_tag">actions_place_5</string>
+
+    <string name="actions_fragment_injury_1_tag">actions_injury_1</string>
+    <string name="actions_fragment_injury_2_tag">actions_injury_2</string>
+    <string name="actions_fragment_injury_3_tag">actions_injury_3</string>
+    <string name="actions_fragment_injury_4_tag">actions_injury_4</string>
+    <string name="actions_fragment_injury_5_tag">actions_injury_5</string>
+
+
+
+    <string name="actions_fragment_falltype_1_tag">actions_falltype_1</string>
+    <string name="actions_fragment_falltype_2_tag">actions_falltype_2</string>
+    <string name="actions_fragment_falltype_3_tag">actions_falltype_3</string>
+    <string name="actions_falltype_other_tag">actions_falltype</string>
+
+
+    <string name="actions_fragment_blueLips_tag">"actions_blueLips"</string>
+    <string name="actions_fragment_difficultyBreathing_tag">"actions_difficultyBreathing"</string>
+    <string name="actions_fragment_bowelIrregular_frequency_tag">"actions_bowelIrregular"</string>
+
+    <string name="actions_fragment_bowelIrregular_1_tag">"actions_bowelIrregular_1"</string>
+    <string name="actions_fragment_bowelIrregular_2_tag">"actions_bowelIrregular_2"</string>
+    <string name="actions_fragment_bowelIrregular_3_tag">"actions_bowelIrregular_3"</string>
+
+    <string name="actions_fragment_neurology_1_tag">"actions_neurology_1"</string>
+    <string name="actions_fragment_neurology_2_tag">"actions_neurology_2"</string>
+    <string name="actions_fragment_neurology_3_tag">"actions_neurology_3"</string>
+    <string name="actions_fragment_neurology_4_tag">"actions_neurology_4"</string>
+    <string name="actions_fragment_neurology_5_tag">"actions_neurology_5"</string>
+    <string name="actions_fragment_neurology_6_tag">"actions_neurology_6"</string>
+
+
+    <string name="actions_fragment_drink24_tag">"actions_drink24"</string>
+    <string name="actions_fragment_thirst_tag">"actions_thirst"</string>
+    <string name="actions_fragment_fatigueHeadacheWeakness_tag">"actions_fatigueHeadacheWeakness"</string>
+    <string name="actions_fragment_confusionSpeech_tag">"actions_confusionSpeech"</string>
+    <string name="actions_fragment_vomitDiarrhea_tag">"actions_vomitDiarrhea"</string>
+    <string name="actions_fragment_burn_tag">"actions_burn"</string>
+    <string name="actions_fragment_trauma_tag">"actions_trauma"</string>
+
+    <!-- activity detector-->
+    <string name="detected_activity_vehicle_tag">IN_VEHICLE</string>
+    <string name="detected_activity_bicycle_tag">ON_BICYCLE</string>
+    <string name="detected_activity_onfoot_tag">ON_FOOT</string>
+    <string name="detected_activity_still_tag">STILL</string>
+    <string name="detected_activity_unknown_tag">UNKNOWN</string>
+    <string name="detected_activity_tilting_tag">TILTING</string>
+    <string name="detected_activity_running_tag">RUNNING</string>
+    <string name="detected_activity_walking_tag">WALKING</string>
+    <string name="detected_activity_null_tag">NULL</string>
+
+    <!--keys-->
+    <string name="message_key">message</string>
+    <string name="backend_messageID_key">job_id</string>
+    <string name="user_id_key">user_id</string>
+    <string name="timestamp_key">ts</string>
+    <string name="event_type_key">event_type</string>
+    <string name="samiID_key">samiId_key</string>
+    <string name="eventID_key">event_id</string>
+    <string name="diagnose_time_key">diagnose_type_key</string>
+    <string name="drawer_item_type_key">drawerItemTypeKey</string>
+    <string name="title_key">title</string>
+    <string name="systemID_key">"system_id"</string>
+    <string name="system_reporter">admin</string>
+    <string name="user_reporter">user</string>
+
+
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">אימייל</string>
+    <string name="prompt_password">סיסמה</string>
+    <string name="action_sign_in">התחברות</string>
+    <string name="action_sign_in_short">התחברות</string>
+    <string name="error_invalid_email">כתובת האימייל לא תקינה</string>
+    <string name="error_invalid_password">סיסמה קצרה מדי</string>
+    <string name="error_incorrect_password">סיסמה שגויה</string>
+    <string name="error_field_required">שדה זה נדרש</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+
+
+    <string name="no_filter">ללא סינון</string>
+
+    <string name="invalid_phone">מספר טלפון לא תקין.</string>
+    <string name="invalid_fields">שדות לא תקינים.</string>
+</resources>

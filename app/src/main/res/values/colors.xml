@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="black_overlay">#66000000</color>
+
+    <color name="white">#FFFFFFFF</color>
+    <color name="light_gray">#ffE2E2E2</color>
+    <color name="darker_light_gray">#ffd8d8d8</color>
+    <color name="light_gray_transparent">#BBE2E2E2</color>
+    <color name="dark_gray_transparent">#BB8a8a8a</color>
+    <color name="white_transparent">#99ffffff</color>
+    <color name="gray">#ffAEAFB3</color>
+    <color name="hint_gray_color">#8a8a8a</color>
+    <color name="dark_gray_color">#ff4C4C4C</color>
+    <color name="android_default_text_color">#808080</color>
+
+
+    <color name="bandmanage_dark_transparent_background_of_poopups_color">#77000000</color>
+
+    <!--<color name="bandmanage_dark_gray_color">#ff5E5E5E</color>-->
+
+    <color name="darker_gray_color">#ff303030</color>
+    <color name="very_dark_gray_color">#ff212121</color>
+    <color name="bandmanage_black_color">#ff000000</color>
+
+    <color name="bandmanage_transparent_color">#00000000</color>
+
+    <color name="bandmanage_red_color">#FFC5321D</color>
+    <color name="bandmanage_red_color_transparent">#AAC5321D</color>
+    <color name="bandmanage_green_color">#8BAD00</color>
+    <color name="bandmanage_yellow_color">#eecc00</color>
+    <color name="bandmanage_orange_color">#FFA500</color>
+
+
+    <!-- ff139AE1 -->
+    <color name="bandmanage_light_blue_color">#ff1CCAE1</color>
+
+    <color name="bandmanage_old_blue_color">#ff13AAE1</color>
+
+    <color name="bandmanage_blue_color">#ff3f95ce</color>
+    <!--<color name="bandmanage_dark_blue_color2">#ff2C99D2</color>-->
+
+    <!--<color name="bandmanage_dark_blue_color">#ff2C80C7</color>-->
+    <!--<color name="bandmanage_dark_blue_color_transparent">#AA2C80C7</color>-->
+
+
+
+    <!-- pie colors -->
+    <color name="pie_green_color1">#8BAD00</color>
+    <color name="pie_green_color2">#33b72a</color>
+    <color name="pie_green_color3">#229660</color>
+    <color name="pie_green_color4">#92e58b</color>
+    <color name="pie_green_color5">#00bd0d</color>
+    <color name="pie_green_color6">#447a0b</color>
+
+    <color name="pie_red_color1">#FFC5321D</color>
+    <color name="pie_red_color2">#b71010</color>
+    <color name="pie_red_color3">#8e4439</color>
+    <color name="pie_red_color4">#880000</color>
+    <color name="pie_red_color5">#ff3737</color>
+    <color name="pie_red_color6">#ed1b24</color>
+
+
+    <color name="gauge_internal_color1">#FF3284CE</color>
+    <color name="gauge_internal_color2">#FF384ACA</color>
+    <color name="gauge_internal_color3">#FF2A19DB</color>
+
+</resources>

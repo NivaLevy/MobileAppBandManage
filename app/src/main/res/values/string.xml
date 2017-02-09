@@ -1,0 +1,742 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BandManage</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_splashscreen">splash</string>
+    <string name="easygcm_sender_id">378814901410</string>
+
+    <string-array name="navigation_drawer_items">
+        <item>Dash Board</item>
+        <item>Contact us</item>
+        <item>Help</item>
+        <item>Profile</item>
+        <item>Settings</item>
+    </string-array>
+
+    <string-array name="short_days_of_the_week">
+        <item>Su</item>
+        <item>Mo</item>
+        <item>Tu</item>
+        <item>We</item>
+        <item>Th</item>
+        <item>Fr</item>
+        <item>Sa</item>
+    </string-array>
+
+    <string name="action_sent_toast">Action sent, thank you!</string>
+    <string name="text_sent_toast">Text sent, thank you!</string>
+
+
+    <!--myProfile fields hints-->
+    <string name="myProfile_name_field">Name</string>
+    <string name="myProfile_gender_field">Gender</string>
+    <string name="myProfile_male_field">Male</string>
+    <string name="myProfile_female_field">Female</string>
+    <string name="myProfile_phone_number_field">Phone Number</string>
+    <string name="height_weight_fields_title">Height and Weight</string>
+    <string name="myProfile_weight_field">Weight</string>
+    <string name="myProfile_height_field">Height</string>
+    <string name="myProfile_birthday_field">Birthday</string>
+    <string name="myProfile_age_field">Age (0 - 120)</string>
+    <string name="myProfile_emergency_phone_number_field">Emergency Phone Number</string>
+    <string name="myProfile_smoke_field">Smoking?</string>
+    <string name="myProfile_kit_id">Devices Kit Number</string>
+    <string name="myProfile_sportracker_device_id">SporTracker Device ID</string>
+
+    <string name="centimeter">cm</string>
+    <string name="inch">in</string>
+    <string name="libras">lbs</string>
+    <string name="kilograms">kg</string>
+
+    <string name="alerts_disregarding_changes">Changes disregarded</string>
+    <string name="alerts_saving_changes">Changes saved</string>
+
+    <string name="my_profile_not_smoking">NO</string>
+    <string name="my_profile_smoking">YES</string>
+
+    <string name="select_height_cm">Select Your Height - (Meters , Centimeters)</string>
+    <string name="select_height_ft">Select Your Height - (Feet , Inches)</string>
+
+    <!--Settings Drawer Buttons-->
+    <string name="drawer_add_carereceiver_button">Add Resident</string>
+    <string name="drawer_dash_board_button">Dash Board</string>
+    <string name="drawer_care_panel_button">Residents Panel</string>
+    <string name="drawer_actions_button">Actions</string>
+    <string name="drawer_weekly_summary_button">Weekly Summary</string>
+    <string name="drawer_weekly_actions_button">Weekly Actions</string>
+    <string name="drawer_rate_us_button">Rate Us</string>
+    <string name="drawer_contact_us_button">Contact Us</string>
+    <string name="drawer_help_button">Simband Help</string>
+    <string name="drawer_my_profile_button">Profile</string>
+    <string name="drawer_settings_button">Settings</string>
+    <string name="drawer_helpdesk_button">Care Desk</string>
+    <string name="drawer_complete_profile_fill_indicator">completed</string>
+    <string name="drawer_residents">Residents:</string>
+
+    <string name="sos_button">sos</string>
+    <string name="notifications_button">notification</string>
+    <string name="submit_button">Submit</string>
+
+
+    <!--SAMI connection fragment-->
+    <string name="unknown_device">Unknown device</string>
+    <string name="login_screen">Samsung login</string>
+    <string name="welcome_txt">Welcome </string>
+    <string name="sami_devices_title">SAMI Devices</string>
+    <string name="title_devices">BLE Device Scan</string>
+
+    <string name="ble_not_supported">BLE is not supported</string>
+    <string name="label_data">Data:</string>
+    <string name="label_device_address">Device address:</string>
+    <string name="label_state">BLE State:</string>
+    <string name="label_sami_deviceid">SAMI Device ID:</string>
+    <string name="NA">N/A</string>
+    <string name="no_data">No Data</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+    <string name="unknown_characteristic">Unknown characteristic</string>
+    <string name="unknown_service">Unknown service</string>
+
+    <!-- Menu items -->
+    <string name="menu_connect">BLE Connect</string>
+    <string name="menu_disconnect">BLE Disconnect</string>
+    <string name="menu_scan">Scan</string>
+    <string name="menu_refresh">Refresh</string>
+    <string name="menu_stop">Stop</string>
+    <string name="menu_logout_sami">Logout SAMI</string>
+
+    <string name="create_new_device">Create a new device</string>
+    <string name="main_dashboard_status_line">Coming soon…</string>
+
+    <!-- Dashboard -->
+    <string name="welcome_dashboard_message">Hi %1$s!</string>
+    <string name="default_welcome_dashboard_message">Hi!</string>
+    <string name="emergency_call_number_not_set_message">To unlock emergency call button, set a care giver number in the Profile screen</string>
+    <string name="emergency_call_number_not_set_title">Emergency call</string>
+    <string name="alerts_coming_soon_message">Bandmanage alerts are coming soon..</string>
+    <string name="ok_button">OK</string>
+    <string name="default_empty_gauge_value">--</string>
+    <string name="temperature_gauge_title">Temp</string>
+
+    <string name="steps_gauge_title">Daily Steps</string>
+    <string name="heartrate_gauge_title">Heart Rate</string>
+
+
+    <!-- SAMI Login screen -->
+    <string name="sami_logout_button">Logout SAMI</string>
+    <string name="sami_login_button">Login SAMI</string>
+    <string name="simband_help_file_link">https://drive.google.com/file/d/0B2uJgGg2FVcGUjYxNkYwdEhGXzA/view?usp=sharing</string>
+    <string name="reporting_fragment_free_text_field_hint">Add comment</string>
+
+
+    <!-- summary -->
+    <string name="lastSummaryUpdateText">Wearable last received message time : </string>
+    <string name="lastSummaryUpdateUnknownText">Wearable last received message time is unknown</string>
+
+    <string name="faliureGetWeeklySummaryToast">A problem occurred, please try again later.</string>
+
+    <string name="failure_connecting_to_internet">Check Your Internet Connection.</string>
+
+    <string name="summary_custom_view_temp_description">DESC</string>
+    <string name="summary_custom_view_text_max">max</string>
+    <string name="summary_custom_view_text_min">min</string>
+    <string name="summary_custom_view_text_no_data">No Data</string>
+    <string name="summary_custom_view_text_average">avera</string>
+    <string name="summary_custom_view_text_average_description">averaDesc</string>
+
+    <string name="steps_row_units">counts</string>
+    <string name="dayidle_row_units">times</string>
+    <string name="gsr_row_units">µSiemens</string>
+    <string name="overtemp_row_units">celsius</string>
+    <string name="temp_row_units">celsius</string>
+    <string name="temp_row_units_f">fahrenheit</string>
+    <string name="wear_time_units">hours</string>
+    <string name="sleep_time_units">hours</string>
+    <string name="event_count_units">events</string>
+    <string name="run_row_units">times</string>
+    <string name="hr_row_units">beats/minute</string>
+    <string name="anxiety_row_units">BMP/RPM/MS</string>
+    <string name="walk_row_units">times</string>
+    <string name="overrun_row_units">BRP/RMP</string>
+    <string name="fatigue_row_units">HRV</string>
+    <string name="hrv_row_units">ms</string>
+    <string name="calories_units">calories</string>
+    <string name="distance_units">cm</string>
+
+    <string name="activity_hr_row_title">Activity</string>
+    <string name="resting_hr_row_title">Resting\nHR</string>
+    <string name="exercising_hr_row_title">Active\nHR</string>
+    <string name="resting_temp_row_title">Resting\nTemp</string>
+    <string name="exercising_temp_row_title">Active\nTemp</string>
+    <string name="resting_gsr_row_title">Resting\nGSR</string>
+    <string name="exercising_gsr_row_title">Active\nGSR</string>
+    <string name="hrv_row_title">HRV</string>
+    <string name="steps_row_title">Steps</string>
+    <string name="dayidle_row_title">Day\nIdle</string>
+    <string name="overtemp_row_title">Over\nTemp</string>
+    <string name="run_row_title">Run</string>
+    <string name="hr_row_title">Heart\nRate\n(bpm)</string>
+    <string name="collection_av_hr_row_title">HR\nCollection</string>
+    <string name="monitoring_hr_row_title">HR\nMonitoring</string>
+    <string name="mode_selected_hr_row_title">HR-Mode\nSelected</string>
+    <string name="anxiety_row_title">Anxiety</string>
+    <string name="walk_row_title">Walk</string>
+    <string name="overrun_row_title">Over\nRun</string>
+    <string name="fatigue_row_title">Fatigue</string>
+    <string name="band_wearing_time_title">Wear\nTime</string>
+    <string name="band_room_time_title">Room\nTime\n(hrs)</string>
+    <string name="sleep_hours_title">Sleep\n(hrs)</string>
+    <string name="event_count_title">Event\nCount</string>
+    <string name="temp_row_title">Temp</string>
+    <string name="temp_row_title_celsius">Skin\nTemp\n (°C)</string>
+    <string name="temp_row_title_fahrenheit">Skin\nTemp\n (°F)</string>
+    <string name="static_legend">static</string>
+    <string name="dynamic_legend">dynamic</string>
+    <string name="calories_row_title">Calories</string>
+    <string name="distance_row_title_km">Distance\n(km)</string>
+    <string name="distance_row_title_miles">Distance\n(miles)</string>
+
+
+    <string name="not_logged_in_message">To access this screen, you need to be Logged-in</string>
+    <string name="send_button_text">Send</string>
+    <string name="save_button_text">Save</string>
+    <string name="confirm_button_text">Event Confirmed</string>
+    <string name="dismiss_button_text">Dismiss</string>
+    <string name="decline_button_text">False Detection</string>
+    <string name="cancel_button_text">Cancel</string>
+    <string name="next_button_text">Next</string>
+    <string name="back_button_text">Back</string>
+    <string name="login_button">Login</string>
+
+
+    <!-- notifications -->
+    <string name="notific_daily_report_available_title">"A new report is available"</string>
+    <string name="notific_daily_report_available_message">"Click to watch your daily report"</string>
+    <string name="notific_daily_report_unavailable_title">A new report is unavailable"</string>
+    <string name="notific_daily_report_unavailable_message">"Couldn't find activity"</string>
+
+
+    <string name="continuous_reminder_notification_massage">"Update your activity if you're done"</string>
+    <string name="are_u_still">"Still "</string>
+    <string name="reminder_interval_index_key">reminderIntervalIndex</string>
+
+    <string name="notific_wearable_disconnect_title">Disconnected wearable</string>
+    <string name="notific_wearable_disconnect_message">"enter settings page to reconnect"</string>
+
+    <string name="notific_wearable_signal_low_title">"Wearable signal low"</string>
+    <string name="notific_wearable_signal_low_message">"Get your wearable closer to the device"</string>
+    <string name="notific_wearable_battery_low_title">"Wearable battery is low"</string>
+    <string name="notific_wearable_battery_low_message">"Charge your wearable battery"</string>
+
+    <string name="notific_off_regime_title">"Abnormal physiology detected"</string>
+    <string name="notific_off_regime_message">"Pay attention to your physical condition"</string>
+
+    <string name="notific_fall_title">"Fall detected"</string>
+    <string name="notific_fall_message">"Pay attention to your physical condition"</string>
+
+
+    <!--<string name="main_dashboard_status_line">Here is your current status:</string>-->
+    <string name="no_internet_toast">No internet access. Check your network and try again</string>
+
+    <string name="bandmanage_version_text">Version %1$s</string>
+
+
+    <!-- continuous mode reminder notification -->
+    <string name="actions_dining">Dining</string>
+    <string name="actions_coffee">Drinking\nCoffee</string>
+    <string name="actions_bowel_movement">Bowel\nMovement</string>
+    <string name="actions_smoking">Smoking</string>
+    <string name="actions_fatigue">Fatigued</string>
+    <string name="actions_stress">Stressed</string>
+    <string name="actions_run">Running</string>
+    <string name="actions_walk">Walking</string>
+    <string name="actions_exercise">Exercising</string>
+    <string name="actions_driving">Driving</string>
+    <string name="actions_offline">Offline</string>
+    <string name="actions_online">Online</string>
+    <string name="actions_flu">Flu</string>
+    <string name="actions_comment">Comment</string>
+    <string name="actions_dehydration">Dehydration</string>
+    <string name="actions_fall">Fall</string>
+    <string name="actions_off_regime">Abnormal\nPatterns</string>
+    <string name="actions_off_regime_label">Abnormality</string>
+
+    <string name="stop_addition_to_action_button_title">"Stop "</string>
+
+    <string name="report_error">Error - could not save report</string>
+
+    <!-- action popup -->
+    <string name="header_report_title">"Report "</string>
+
+    <string name="areYouFeeling_preName">"Is "</string>
+    <string name="areYouFeeling_postName">" feeling/suffering from"</string>
+    <string name="areYouFeeling_was_preName">"Was "</string>
+    <string name="areYouFeeling_did_preName">"Did "</string>
+    <string name="areYouFeeling_past_postName">" felt/suffered from"</string>
+
+    <string name="flu_extension_frequency">frequency</string>
+    <string name="vital_signs_title">Vital Signs:</string>
+    <string name="symptoms_title">Symptoms:</string>
+    <string name="anamnesis_title">Anamnesis:</string>
+    <string name="comments_title">Comments:</string>
+
+
+    <string name="actions_cough_frequency">Cough</string>
+    <string name="actions_fever">Fever / Chill</string>
+    <string name="actions_sorethroat">Sore throat</string>
+    <string name="actions_stuffynose">Runny or stuffy nose</string>
+    <string name="actions_bodyaches">Muscle or body aches</string>
+    <string name="actions_headaches">Headaches</string>
+    <string name="actions_tiredness">Tiredness</string>
+
+    <string name="fever_hint_et_c">Body Temperature (34 - 42 °C)</string>
+    <string name="fever_hint_et_f">Body Temperature (93 - 108 °F)</string>
+
+    <string name="actions_chest_irregularities">"Chest Irregularities"</string>
+
+    <string name="actions_place">Location</string>
+    <string name="actions_falltype">Fall Type</string>
+    <string name="actions_medications">Medications change? (last 2 weeks)</string>
+    <string name="actions_medications_et">Describe medications change</string>
+
+    <string name="actions_other">Other</string>
+
+    <string name="actions_injury">Injury type</string>
+
+    <string name="actions_place_1">Shower</string>
+    <string name="actions_place_2">Bathroom</string>
+    <string name="actions_place_4">From Bed</string>
+    <string name="actions_place_5">In Room</string>
+    <string name="actions_place_3">Outdoor</string>
+
+
+    <string name="actions_falltype_1">Back Fall</string>
+    <string name="actions_falltype_2">Side Fall</string>
+    <string name="actions_falltype_3">Front Fall</string>
+
+    <string name="activity_hint_et">Activity during event</string>
+    <string name="activity_tag">activity_hint_et</string>
+
+    <string name="injury_extension_severity">severity</string>
+
+    <string name="actions_injury_1">Head trauma</string>
+    <string name="actions_injury_2">Loss of Consciousness</string>
+    <string name="actions_injury_3">Abdominal</string>
+    <string name="actions_injury_4">Upper Extremities</string>
+    <string name="actions_injury_5">Lower Extremities</string>
+
+    <string name="bp_sp_hint_et">"Blood Pressure Systolic (70 - 220)"</string>
+    <string name="bp_dp_hint_et">"Blood Pressure Diastolic (30 - 120)"</string>
+    <string name="actions_cough_kind">"Cough"</string>
+    <string name="actions_physiology_cough_tag">"actions_cough_kind"</string>
+    <string name="actions_blueLips">"Blue Lips"</string>
+    <string name="actions_difficultyBreathing">"Breathing Difficulties"</string>
+    <string name="actions_bowelIrregular">"Irregular Bowel Movement"</string>
+    <string name="actions_pain">"Pain"</string>
+    <string name="actions_bowelIrregular_1">"Diarrhea"</string>
+    <string name="actions_bowelIrregular_2">"Constipation"</string>
+    <string name="actions_bowelIrregular_3">"Blood In Stool"</string>
+
+    <string name="actions_chest">"Chest"</string>
+    <string name="actions_confusionSpeech">"Speech confusion"</string>
+    <string name="actions_vomitDiarrhea">"Vomit / Diarrhea"</string>
+    <string name="actions_urineChange">"Urine frequency change"</string>
+    <string name="actions_burn">"Exposure to a hot environment"</string>
+    <string name="actions_trauma">"Trauma or acute illness"</string>
+    <string name="actions_thirst">"Thirst / Dry tongue"</string>
+    <string name="actions_drink24">"Reduced fluid intake"</string>
+    <string name="actions_neurology">"Neurological Irregularities"</string>
+    <string name="actions_physiology">"Physiological Irregularities"</string>
+
+    <string name="actions_fatigueHeadacheWeakness">"Fatigue / Headache / Weakness "</string>
+
+
+    <string name="actions_neurology_5">"Loss of Consciousness"</string>
+    <string name="actions_neurology_6">"Disorientation"</string>
+    <string name="actions_neurology_1">"Motor weakness"</string>
+    <string name="actions_neurology_2">"Speech abnormality"</string>
+    <string name="actions_neurology_3">"Gait disturbers"</string>
+    <string name="actions_neurology_4">"Visual disturbances"</string>
+
+
+    <string name="celsius">"°C"</string>
+    <string name="fahrenheit">"°F"</string>
+
+
+    <!-- settings -->
+    <string name="loginSettingCategoryKey">loginCategoryKey</string>
+    <string name="sensorsSettingCategoryKey">sensorsCategoryKey</string>
+    <string name="settingsActivityTitle">Settings</string>
+    <string name="generalCategoryTitle">General</string>
+    <string name="advancedCategoryTitle">Advanced</string>
+    <string name="checkboxAndroidSensors">Use Device Sensors</string>
+    <string name="checkboxWearableSensors">Connect Wearable</string>
+    <string name="samiLogin">SAMI Login</string>
+    <string name="samiLogout">SAMI Logout</string>
+    <string name="noInternetSamiToast">No internet connection</string>
+    <string name="LogoutSuccessfulToast">Logged out successfully</string>
+    <string name="LogoutUnsuccessfulToast">" Couldn't Logout: "</string>
+    <string name="angel_dialog_text_device_pick">activate Angel Sensor bluetooth, and select device</string>
+    <string name="angel_dialog_title_device_pick">pick Angel Sensor device</string>
+    <string name="dialog_title_wearable_device_pick">pick device type</string>
+    <string name="angel_sensor">Angel Sensor</string>
+    <string name="microsoft_band">Microsoft Band</string>
+    <string name="connection_error">"Connection error"</string>
+    <string name="alertDialog_message_microHealth_lowSDK">"Microsoft Health BandService doesn't support your SDK Version. Please update to latest SDK."</string>
+    <string name="alertDialog_message_microHealth_install_microHealth">"Microsoft Health BandService is not available. Please make sure Microsoft Health is installed and that you have the correct permissions."</string>
+    <string name="alertDialog_message_band_isnt_paired">"Band isn't paired with your phone. pair Band via Microsoft Health app."</string>
+    <string name="alertDialog_message_band_far_or_BT_off">"Band isn't connected. Please make sure bluetooth is on and the band is in range."</string>
+
+
+    <!-- wearable connection -->
+    <string name="allow_bluetooth_toast">to use wearable sensors, allow bluetooth</string>
+    <string name="allow_location_toast">to use wearable sensors, allow GPS or have network provider</string>
+    <string name="connected_wearable_toast">connected to wearable</string>
+    <string name="not_connected_wearable_toast">not connected to wearable</string>
+    <string name="location_or_nodevice_sensors_toast">permit location to use device sensor</string>
+    <string name="location_or_no_angel_sensors_toast">permit location to use Angel Sensor</string>
+
+    <string name="bus_tag_is_wearable_connected">"bus_tag_is_wearable_connected"</string>
+
+
+    <!-- caregiver panel-->
+
+    <string name="general_data_profile_header">"General data profile"</string>
+    <string name="fall_data_profile_header">"Fall data profile"</string>
+    <string name="show_more">"show more"</string>
+    <string name="show_less">"show less"</string>
+    <string name="edit">"Edit"</string>
+
+    <string name="caregiver_panel_tab_name_log">"LOG"</string>
+    <string name="caregiver_panel_tab_name_actions">"INFO"</string>
+    <string name="caregiver_panel_tab_name_summary">"SUMMARY"</string>
+    <string name="helpdesk_panel_tab_name_control">"EVENT ALERTS"</string>
+    <string name="helpdesk_panel_tab_name_history">"EVENT HISTORY"</string>
+
+    <string name="listitem_caretaker_room_title">Room %1$s</string>
+    <string name="listitem_caretaker_kit_title">Kit %1$s</string>
+    <string name="caretaker_room_number_title">Room Number</string>
+
+    <string name="floating_action_btn_tv_text">"Report Event"</string>
+
+    <string name="listsort_name">Name</string>
+    <string name="listsort_room">Room</string>
+    <string name="listsort_kit">Kit</string>
+    <string name="listsort_last_message">Last Action</string>
+
+    <string name="event_status_title">"Change status?"</string>
+    <string name="event_status_unhandled">"Unhandled"</string>
+    <string name="event_status_declined">"Rejected"</string>
+    <string name="event_status_confirm">"Confirmed"</string>
+    <string name="event_status_in_treatment">"In Treatment"</string>
+
+    <string name="resolve">"Resolved"</string>
+    <string name="update">"Update"</string>
+
+    <string name="nurse_id_hint">"Nurse ID"</string>
+    <string name="patient_hint">"Resident"</string>
+    <string name="status_change_header">"Status Change"</string>
+
+    <string name="not_all_necessery_data_inserted_message">"Fill the marked required fields"</string>
+
+    <string name="log_header_action_type">"Action"</string>
+    <string name="log_header_date">"Date"</string>
+    <string name="log_header_user">"User"</string>
+    <string name="log_header_room">"Room"</string>
+    <string name="log_manual">"Manual"</string>
+    <string name="log_bandmanage">"BM"</string>
+    <string name="log_header_reporter">"By"</string>
+    <string name="log_header_staff_id">"Staff ID"</string>
+    <string name="log_header_details">"Details"</string>
+    <string name="log_header_status">"Status"</string>
+    <string name="log_header_is_handled">"Confirmation"</string>
+
+    <string name="no_log_data">"No reports"</string>
+
+    <string name="header_diagnose_title">" Detected"</string>
+    <string name="header_pick_carereceiver_title">"Pick Resident"</string>
+
+    <string name="header_add_new_carereceiver_popup">"New Resident"</string>
+
+    <string name="carereceiver_creation_faliure_toast">"Patient creation failed"</string>
+    <string name="carereceiver_update_faliure_toast">"Patient update failed"</string>
+
+    <string name="areUSure_delete_carereceiver_prename">"Are you sure that you want to delete "</string>
+    <string name="areUSure_delete_carereceiver_postname">" permanently?"</string>
+    <string name="areUSure">"Are you sure?"</string>
+
+    <string name="yes">"Yes"</string>
+    <string name="no">"No"</string>
+
+    <string name="progressDialog_texy_delete_carereceiver">"Deleting. Please wait…"</string>
+
+    <string name="carereceiver_deletion_success_toast">"Care Receiver deleted successfully"</string>
+    <string name="carereceiver_deletion_faliure_toast">"Delete failed, please try again later"</string>
+
+    <string name="delete">"Delete"</string>
+
+
+    <!-- SMSs -->
+    <string name="sms_hebrew_starter">""</string>
+    <string name="sms_defualt_carereceiver_name">"Your resident"</string>
+    <string name="sms_carereceiver_wearable_battery">"s wearable battery is low."</string>
+    <string name="sms_carereceiver_wearable_signal">"s wearable signal is low. make sure the wearable or phone wasn't lost."</string>
+    <string name="sms_carereceiver_off_regime">"s physiology acts abnormally."</string>
+    <string name="sms_carereceiver_fall">"s fall has detected."</string>
+    <string name="popup_header_diagnose_title">" Detection"</string>
+
+    <string name="popup_header_diagnose_generic_title">"Unhandled events"</string>
+
+    <string name="header_diagnose">"Diagnoses"</string>
+
+
+    <!-- crushlytics-->
+    <string name="system_id_crashlytics_tab">"system id: "</string>
+    <string name="job_crashlytics_tab">"; job: "</string>
+    <string name="name_crashlytics_tab">" ; name: "</string>
+
+    <string name="user_id_crashlytics_tab">"User ID: "</string>
+    <string name="watch_id_crashlytics_tab">"Watch ID: "</string>
+    <string name="field_name_crashlytics_tab">"Field Name: "</string>
+    <string name="message_type_crashlytics_tab">"Message Type: "</string>
+    <string name="gateway_id_crashlytics_tab">"GW ID: "</string>
+    <string name="reason_crashlytics_tab">"Reason: "</string>
+    <string name="e_stack_trace_crashlytics_tab">"Stack Trace: "</string>
+
+    <string name="messageid_crashlytics_tab">" ; message id: "</string>
+    <string name="carereceiver_id__crashlytics_tab">" ; care receiver id: "</string>
+    <string name="error__crashlytics_tab">" ; error: "</string>
+    <string name="error_deleting">"database problem while deleting careReceiver"</string>
+
+
+    <!-- ===========================TAGS============================= -->
+
+    <!-- bus -->
+    <string name="bus_tag_display_new_dashboard_data">"bus_tag_display_new_dashboard_data"</string>
+    <string name="bus_tag_one_sec_ticker">"bus_tag_one_sec_ticker"</string>
+
+    <string name="bus_tag_close_action_popup">"bus_tag_close_action_popup"</string>
+    <string name="bus_tag_new_wearable_data_to_display">"bus_tag_close_action_popup"</string>
+
+    <string name="bus_tag_load_and_display_care_list">"bus_tag_load_and_display_care_list"</string>
+    <string name="bus_tag_filter_search">"filter search"</string>
+    <string name="bus_tag_set_picked_carereceiver">"bus_tag_set_picked_carereceiver"</string>
+    <string name="bus_tag_display_picked_carereceiver_on_tabs">"bus_tag_display_picked_carereceiver_on_tabs"</string>
+    <string name="bus_tag_display_no_carereceiver_on_tabs">"bus_tag_display_no_carereceiver_on_tabs"</string>
+    <string name="bus_tag_ask_publish_picked_carereceiver">"bus_tag_ask_publish_picked_carereceiver"</string>
+
+
+    <!-- summary -->
+    <string name="activity_hr_row_tag">Activity</string>
+    <string name="resting_hr_row_tag">RestingHR</string>
+    <string name="exercising_hr_row_tag">ActiveHR</string>
+    <string name="resting_temp_row_tag">RestingTemp</string>
+    <string name="exercising_temp_row_tag">ActiveTemp</string>
+    <string name="resting_gsr_row_tag">RestingGSR</string>
+    <string name="exercising_gsr_row_tag">ActiveGSR</string>
+    <string name="hrv_row_tag">HRV</string>
+    <string name="steps_row_tag">Steps</string>
+    <string name="dayidle_row_tag">DayIdle</string>
+    <string name="overtemp_row_tag">OverTemp</string>
+    <string name="run_row_tag">Run</string>
+    <string name="monitoring_hr_row_tag">HRMonitoring</string>
+    <string name="mode_selected_hr_row_tag">HRModeSelected</string>
+    <string name="anxiety_row_tag">Anxiety</string>
+    <string name="walk_row_tag">Walk</string>
+    <string name="overrun_row_tag">OverRun</string>
+    <string name="fatigue_row_tag">Fatigue</string>
+    <string name="band_wearing_time_tag">WearTime</string>
+    <string name="band_room_time_tag">RoomTime</string>
+    <string name="heartrate_row_tag">heartrate</string>
+    <string name="temp_row_tag">temp</string>
+    <string name="event_count_row_tag">event_count</string>
+    <string name="sleep_hours_tag">sleep_hours</string>
+    <string name="calories_tag">calories</string>
+    <string name="distance_tag">distance</string>
+
+    <!-- action -->
+    <string name="actions_fragment_dining_tag">Dining</string>
+    <string name="actions_fragment_coffee_tag">DrinkingCoffee</string>
+    <string name="actions_fragment_bowelmovement_tag">BowelMovement</string>
+    <string name="actions_fragment_smoking_tag">Smoking</string>
+    <string name="actions_fragment_fatigue_tag">Fatigued</string>
+    <string name="actions_fragment_stress_tag">Stressed</string>
+    <string name="actions_fragment_run_tag">Running</string>
+    <string name="actions_fragment_walk_tag">Walking</string>
+    <string name="actions_fragment_exercise_tag">Exercising</string>
+    <string name="actions_fragment_driving_tag">Driving</string>
+    <string name="actions_fragment_offline_tag">Offline</string>
+    <string name="actions_fragment_flu_tag">Flu</string>
+    <string name="actions_fragment_comment_tag">Comment</string>
+    <string name="actions_fragment_dehydration_tag">Dehydration</string>
+    <string name="actions_fragment_fall_tag">Fall</string>
+    <string name="actions_fragment_off_regime_tag">OffRegime</string>
+    <string name="actions_fragment_low_battery_tag">LowBattery</string>
+    <string name="actions_fragment_low_signal_tag">LowSignal</string>
+
+    <string name="multiple_choice_action_type_tag">multiple_choice</string>
+    <string name="moment_action_type_tag">moment</string>
+    <string name="continuous_action_type_tag">continuous</string>
+
+    <string name="stop_action_tag">stop </string>
+
+    <string name="sami_event_handle_state_declined_tag">"rejected"</string>
+    <string name="sami_event_handle_state_accepted_tag">"confirmed"</string>
+    <string name="sami_event_handle_state_unsure_tag">"unsure"</string>
+    <string name="sami_reporting_method_automatic_tag">"automatic"</string>
+    <string name="sami_reporting_method_manual_tag">"manual"</string>
+
+
+    <!-- action popup -->
+    <string name="symptoms_tag_name">symptoms</string>
+    <string name="extension_tag_name">extension</string>
+
+    <string name="actions_fragment_fever_tag">actions_fever</string>
+    <string name="actions_fragment_cough_frequency_tag">actions_cough_frequency</string>
+    <string name="actions_fragment_sorethroat_tag">actions_sorethroat</string>
+    <string name="actions_fragment_stuffynose_tag">actions_stuffynose</string>
+    <string name="actions_fragment_bodyaches_tag">actions_bodyaches</string>
+    <string name="actions_fragment_headaches_tag">actions_headaches</string>
+    <string name="actions_fragment_tiredness_tag">actions_tiredness</string>
+
+
+    <string name="actions_physiology_chest_tag">"actions_chest_irregularities"</string>
+    <string name="actions_difficultybreathing_tag">"actions_difficultyBreathing"</string>
+    <string name="actions_bluelips_tag">"actions_blueLips"</string>
+    <string name="actions_bowel_tag">"actions_bowelIrregular"</string>
+    <string name="actions_pain_tag">"actions_pain"</string>
+
+    <string name="actions_medications_tag">actions_medications</string>
+
+    <string name="actions_location_other_tag">location:other</string>
+    <string name="actions_injury_other_tag">injury:other</string>
+    <string name="actions_physiology_other_tag">actions_physiology_other_tag</string>
+    <string name="actions_neurology_other_tag">neurology:other</string>
+
+    <string name="actions_fragment_bodytemp_tag">"fever"</string>
+    <string name="actions_fragment_tempunits_tag">"tempUnits"</string>
+    <string name="actions_fragment_bpsystolic_tag">"bp_sp_hint_et"</string>
+    <string name="actions_fragment_bpdiastolic_tag">"bp_dp_hint_et"</string>
+    <string name="actions_fragment_comments_tag">"actions_comment"</string>
+
+
+    <string name="actions_fragment_activity_tag">activity_hint_et</string>
+    <string name="actions_fragment_injury_tag">actions_injury</string>
+    <string name="actions_fragment_place_tag">actions_place</string>
+    <string name="actions_fragment_falltype_tag">actions_falltype</string>
+
+    <string name="actions_fragment_Physiological_tag">actions_physiology</string>
+    <string name="actions_fragment_Neurological_tag">actions_neurology</string>
+    <string name="actions_fragment_medications_tag">actions_medications</string>
+
+    <string name="actions_fragment_place_1_tag">actions_place_1</string>
+    <string name="actions_fragment_place_2_tag">actions_place_2</string>
+    <string name="actions_fragment_place_3_tag">actions_place_3</string>
+    <string name="actions_fragment_place_4_tag">actions_place_4</string>
+    <string name="actions_fragment_place_5_tag">actions_place_5</string>
+
+    <string name="actions_fragment_injury_1_tag">actions_injury_1</string>
+    <string name="actions_fragment_injury_2_tag">actions_injury_2</string>
+    <string name="actions_fragment_injury_3_tag">actions_injury_3</string>
+    <string name="actions_fragment_injury_4_tag">actions_injury_4</string>
+    <string name="actions_fragment_injury_5_tag">actions_injury_5</string>
+
+    <string name="actions_fragment_falltype_1_tag">actions_falltype_1</string>
+    <string name="actions_fragment_falltype_2_tag">actions_falltype_2</string>
+    <string name="actions_fragment_falltype_3_tag">actions_falltype_3</string>
+    <string name="actions_falltype_other_tag">actions_falltype</string>
+
+
+
+    <string name="actions_fragment_blueLips_tag">"actions_blueLips"</string>
+    <string name="actions_fragment_difficultyBreathing_tag">"actions_difficultyBreathing"</string>
+    <string name="actions_fragment_bowelIrregular_frequency_tag">"actions_bowelIrregular"</string>
+
+    <string name="actions_fragment_bowelIrregular_1_tag">"actions_bowelIrregular_1"</string>
+    <string name="actions_fragment_bowelIrregular_2_tag">"actions_bowelIrregular_2"</string>
+    <string name="actions_fragment_bowelIrregular_3_tag">"actions_bowelIrregular_3"</string>
+
+    <string name="actions_fragment_neurology_1_tag">"actions_neurology_1"</string>
+    <string name="actions_fragment_neurology_2_tag">"actions_neurology_2"</string>
+    <string name="actions_fragment_neurology_3_tag">"actions_neurology_3"</string>
+    <string name="actions_fragment_neurology_4_tag">"actions_neurology_4"</string>
+    <string name="actions_fragment_neurology_5_tag">"actions_neurology_5"</string>
+    <string name="actions_fragment_neurology_6_tag">"actions_neurology_6"</string>
+
+
+    <string name="actions_fragment_drink24_tag">"actions_drink24"</string>
+    <string name="actions_fragment_thirst_tag">"actions_thirst"</string>
+    <string name="actions_fragment_fatigueHeadacheWeakness_tag">"actions_fatigueHeadacheWeakness"</string>
+    <string name="actions_fragment_confusionSpeech_tag">"actions_confusionSpeech"</string>
+    <string name="actions_fragment_vomitDiarrhea_tag">"actions_vomitDiarrhea"</string>
+    <string name="actions_fragment_burn_tag">"actions_burn"</string>
+    <string name="actions_fragment_trauma_tag">"actions_trauma"</string>
+
+    <!-- activity detector-->
+    <string name="detected_activity_vehicle_tag">IN_VEHICLE</string>
+    <string name="detected_activity_bicycle_tag">ON_BICYCLE</string>
+    <string name="detected_activity_onfoot_tag">ON_FOOT</string>
+    <string name="detected_activity_still_tag">STILL</string>
+    <string name="detected_activity_unknown_tag">UNKNOWN</string>
+    <string name="detected_activity_tilting_tag">TILTING</string>
+    <string name="detected_activity_running_tag">RUNNING</string>
+    <string name="detected_activity_walking_tag">WALKING</string>
+    <string name="detected_activity_null_tag">NULL</string>
+
+    <!--keys-->
+    <string name="message_key">message</string>
+    <string name="backend_messageID_key">job_id</string>
+    <string name="timestamp_key">ts</string>
+    <string name="eventID_key">event_id</string>
+    <string name="event_type_key">event_type</string>
+    <string name="user_id_key">user_id</string>
+    <string name="diagnose_time_key">diagnose_type_key</string>
+    <string name="drawer_item_type_key">drawerItemTypeKey</string>
+    <string name="title_key">title</string>
+    <string name="systemID_key">"system_id"</string>
+    <string name="system_reporter">admin</string>
+    <string name="user_reporter">user</string>
+    <string name="pls_fill_minimum_of_name_and_room">Name, Room Number and Devices Kit Number must be filled</string>
+
+
+    <string name="medications">Taking Medications?</string>
+    <string name="prev_fall">Recent Falls- More than 1 during the last 3 months or more than 2 during the last 6 months?</string>
+    <string name="acute_illness">Acute illness that might cause Vertigo?</string>
+    <string name="chronic_illness">Chronic Disease?</string>
+    <string name="cane_wheelchair">Using Walking Aids?</string>
+    <string name="risky_behavior">Risky Behavior?</string>
+    <string name="live_alone">Live alone?</string>
+    <string name="reduced_vision">Reduced Vision?</string>
+    <string name="decreased_hearing">Decreased Hearing?</string>
+    <string name="neurologic_changes">Neurological Disorders?</string>
+    <string name="rising_difficulty">Difficulties in raising up from sitting?</string>
+    <string name="cognitive_impairment">Cognitive deficits?</string>
+    <string name="leg_problems">Leg Problems?</string>
+    <string name="used_medications">If yes, which medications?</string>
+    <string name="chronic_illness_types">If yes, which diseases?</string>
+    <string name="walking_aid_types">If yes, which aid?</string>
+    <string name="edit_details">press to edit</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+
+    <string name="no_filter">No Filter</string>
+
+    <string name="invalid_phone">Invalid phone number.</string>
+    <string name="invalid_fields">incorrect fields.</string>
+
+</resources>

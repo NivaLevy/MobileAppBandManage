@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:foobar="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/selector_menu_main"
+    android:orientation="horizontal">
+
+    <com.ctrlplusz.anytextview.AnyTextView
+        foobar:typeface="Aileron-Regular.otf"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/drawer_item_header"
+        android:gravity="start|center_vertical"
+        android:minHeight="48dp"
+        android:layout_margin="10dp"
+        android:drawablePadding="5dp"
+        android:textColor="@color/main_menu_text_selector"
+        android:textSize="18sp"
+        />
+
+    <com.ctrlplusz.anytextview.AnyTextView
+        foobar:typeface="Aileron-Light.otf"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/drawer_item_comment"
+        android:gravity="end|center_vertical"
+        android:layout_margin="10dp"
+        android:drawablePadding="5dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/bandmanage_blue_color"
+        android:textSize="10sp"
+        />
+
+</LinearLayout>
+

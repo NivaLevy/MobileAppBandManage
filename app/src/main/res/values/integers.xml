@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="popup_animation_time">250</integer>
+    <integer name="activity_fade_time">500</integer>
+    <integer name="activity_fade_slow_time">1000</integer>
+    <integer name="media_viewer_animation_time">400</integer>
+    <integer name="media_viewer_height_animation_time">500</integer>
+
+    <!-- splash screen -->
+    <integer name="splash_display_duration_milliseconds_first_time">3000</integer>
+    <integer name="splash_display_duration_milliseconds_normal">200</integer>
+    <integer name="splash_heart_animation">600</integer>
+    <integer name="animation_cycle_millis">1500</integer>
+
+    <!-- registration -->
+    <integer name="registration_slide_anim_duration">300</integer>
+
+    <integer name="slide_anim_duration">300</integer>
+    <integer name="ripple_animation_time">200</integer>
+    <integer name="web_header_animation_time">400</integer>
+    <integer name="media_view_icon_animation">1000</integer>
+
+    <!-- dashboard -->
+    <integer name="dashboard_heart_animation">600</integer>
+    <integer name="dashboard_lungs_animation">1500</integer>
+
+
+    <!-- costume checkBox -->
+    <integer name="checkBox_default_margin">5</integer>
+    <integer name="checkBox_bottom_margin">30</integer>
+
+</resources>
